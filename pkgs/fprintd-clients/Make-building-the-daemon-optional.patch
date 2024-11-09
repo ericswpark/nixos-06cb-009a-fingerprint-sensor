@@ -50,7 +50,7 @@ index b155a4a..f0df9a9 100644
  polkit_gobject_dep = dependency('polkit-gobject-1', version: '>= 0.91')
  dbus_dep = dependency('dbus-1', required: false)
  libsystemd_dep = dependency('libsystemd', required: get_option('pam'))
-@@ -141,21 +141,23 @@ pam_wrapper_dep = dependency('pam_wrapper', required: get_option('pam'))
+@@ -169,21 +169,23 @@ pam_wrapper_dep = dependency('pam_wrapper', required: get_option('pam'))
  
  xmllint = find_program('xmllint', required: false)
  python3 = find_program('python3') # No meson without it!
